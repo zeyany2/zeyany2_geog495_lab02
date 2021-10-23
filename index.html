@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GEOG 495 LAB 02 EXAMPLE</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">Abstract</a>
+        <a href="section1.html">Section 1</a>
+        <a href="section2.html">Section 2</a>
+        <a href="section3.html">Section 3</a>
+        <a href="see_also.html">See Also</a>
+        <a href="references.html">References</a>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
+    <div class="searchbar">
+        <a class="active" href="index.html">Home</a>
+        <a href="#about">About</a>
+        <input type="text" placeholder="Search..">
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <h1>This is the page for Avengers!</h1>
+        <img class="mainpic" src="img/avengers.jpg" style="width:25%; height: auto;">
+        
+
+        <div class="dropdown">
+            <h2>Find more about Avengers movies!</h2>
+            <button class="dropbtn">Lniks</button>
+            <div class="dropdown-content">
+              <a href="https://www.imdb.com/title/tt0848228/">The Avengers</a>
+              <a href="https://www.imdb.com/title/tt2395427/">Avengers: Age of Ultron</a>
+              <a href="https://www.imdb.com/title/tt4154756/">Avengers: Infinity War</a>
+              <a href="https://www.imdb.com/title/tt4154796/">Avengers: Endgame</a>
+            </div>
+        </div>
+
+        <!-- Slideshow container -->
+        <h2>The Avengers Movies</h2>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="img/movie1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="img/movie2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="img/movie3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="img/movie4.jpg" style="width:100%">
+                <div class="text">Caption Four</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+
+    </div>
+
+
+</body>
+<script src="js/main.js"></script>
+</html>
